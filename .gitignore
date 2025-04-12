@@ -1,0 +1,50 @@
+# Visual Studio specific files (prevents the error you saw)
+/.vs/
+
+# Build output directory (as requested)
+/out/
+
+# CMake FetchContent download location (usually inside build dir)
+/_deps/
+
+# Other common build directories
+/[Bb]uild/
+/[Bb]uild*/
+/CMakeBuilds/
+
+# CMake generated files
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+install_manifest.txt
+CTestTestfile.cmake
+
+# Makefiles / Ninja files (often in build dirs, but good practice)
+Makefile
+*.make
+ninja.build
+
+# Compiled object files
+*.o
+*.obj
+
+# Compiled static libraries
+*.a
+*.lib
+
+# Compiled shared libraries/DLLs
+*.so
+*.dylib
+*.dll
+
+# Executables
+*.exe
+
+# Other IDE/User specific files
+*.suo
+*.user
+
+# Editor backup files
+*~
+*.bak
+*.swp
